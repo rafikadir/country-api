@@ -8,7 +8,7 @@ const displayCountry = countries => {
 
     countries.forEach(country => {
         const col = document.createElement('div');
-        col.className = "col-lg-3 country";
+        col.className = "col-lg-3 col-sm-6 country";
         const countryInfo = `
             <img src="${country.flag}">
             <h4>${country.name}</h4>
