@@ -26,9 +26,12 @@
                 border: 1px solid #eeacee88;
                 margin-bottom: 20px;
                 margin: 5px;
-                width: 24%;
                 padding: 10px;
                 box-shadow: 0 5px 20px #0dcaf04f;
+            }
+
+            .col-lg-3 { 
+                width: 24%;
             }
 
             ul {
@@ -36,6 +39,22 @@
                 list-style-type: none;
                 color: #7b83dd;
                 margin: 0;
+            }
+
+            @media (max-width:576px){
+                .col-lg-3 { 
+                    width: 100%;
+                }   
+            }
+            @media (min-width:577px) and (max-width:767px){
+                .col-lg-3 { 
+                    width: 48%;
+                }   
+            }
+            @media (min-width:768px) and (max-width:991px){
+                .col-lg-3 { 
+                    width: 30%;
+                }   
             }
 
         </style>
